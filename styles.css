@@ -1,0 +1,263 @@
+body {
+  font-family: url(font/Poppins-Bold.ttf);
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url(img/pexels-trace-707046.jpg);
+  background-size: cover;
+}
+
+.left-link {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 1.5rem;
+  font-family: fantasy;
+}
+
+.left-link a {
+  color: #333;
+  text-decoration: none;
+  font-weight: none;
+}
+
+.home-container {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 50px;
+}
+
+nav {
+  background-color: #914f1e;
+  padding: 10px;
+  margin-left: 240px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact-container {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-form,
+.social-media {
+  width: 45%;
+}
+
+.contact-form h1,
+.social-media h2 {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media ul li {
+  margin-bottom: 10px;
+}
+
+.social-media ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-media ul li a:hover {
+  text-decoration: underline;
+}
+
+.hobbies-container {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies-container h1 {
+  text-decoration: underline;
+}
+
+.hobbies-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hobbies-image img {
+  width: 60%;
+  max-width: 300px;
+  border: 5px solid #333;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-container {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shapes-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  margin: 10px;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #333;
+  border-radius: 0;
+  margin: 10px;
+}
+
+.education {
+  margin-top: 20px;
+}
+
+.info-box {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-box h2 {
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  margin-bottom: 10px;
+}
+
+.info-box div {
+  font-family: url(font/Poppins-Regular.ttf);
+}
+
+.info-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.info-box ul li {
+  margin-bottom: 5px;
+}
+
+.about-container {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education {
+  margin-top: 20px;
+}
+
+.info-box {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-box h2 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.info-box p {
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.info-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.info-box ul li {
+  margin-bottom: 5px;
+}
